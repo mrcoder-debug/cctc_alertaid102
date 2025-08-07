@@ -86,7 +86,7 @@ export default function EvacuationList({ userLocation }: EvacuationListProps) {
     lng: 123.5811,
     capacity: 350,
       facilities: ['Restrooms', 'Tent Area'],
-      type: 'open area'
+      type: 'community'
     }
   ];
 
