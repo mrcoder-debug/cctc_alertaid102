@@ -25,7 +25,7 @@ export default function ContactList({ searchQuery, selectedCategory }: ContactLi
       id: '1',
       name: 'Philippine National Police',
       organization: 'PNP National Headquarters',
-      phoneNumbers: ['117', '(02) 8723-0401'],
+      phoneNumbers: ['+63 (32) 322 5166','322-5166'],
       category: 'police',
       description: 'National emergency police hotline',
       availability: '24/7',
@@ -36,7 +36,7 @@ export default function ContactList({ searchQuery, selectedCategory }: ContactLi
       id: '2',
       name: 'Bureau of Fire Protection',
       organization: 'BFP National Headquarters',
-      phoneNumbers: ['116', '(02) 8426-0219'],
+      phoneNumbers: ['(032) 467‑9006', '(032) 467‑9115'],
       category: 'fire',
       description: 'Fire emergency and rescue services',
       availability: '24/7',
@@ -44,23 +44,12 @@ export default function ContactList({ searchQuery, selectedCategory }: ContactLi
       color: 'bg-red-500'
     },
     {
-      id: '3',
-      name: 'Philippine Red Cross',
-      organization: 'National Headquarters',
-      phoneNumbers: ['143', '(02) 8527-0000'],
-      category: 'medical',
-      description: 'Emergency medical services and disaster response',
-      availability: '24/7',
-      icon: 'ri-first-aid-kit-line',
-      color: 'bg-red-600'
-    },
-    {
       id: '4',
-      name: 'NDRRMC Emergency Hotline',
+      name: 'CDRRMO',
       organization: 'National Disaster Risk Reduction and Management Council',
-      phoneNumbers: ['(02) 8911-1406', '(02) 8912-2665'],
+      phoneNumbers: ['(032) 322 7911','0977 834 7619'],
       category: 'disaster',
-      description: 'National disaster management coordination',
+      description: 'City Disaster Risk Reduction and Management Office',
       availability: '24/7',
       icon: 'ri-shield-check-line',
       color: 'bg-orange-500'
@@ -69,7 +58,7 @@ export default function ContactList({ searchQuery, selectedCategory }: ContactLi
       id: '5',
       name: 'Coast Guard Action Center',
       organization: 'Philippine Coast Guard',
-      phoneNumbers: ['(02) 8527-8481', '(02) 8527-3877'],
+      phoneNumbers: ['+639296787928'],
       category: 'rescue',
       description: 'Maritime search and rescue operations',
       availability: '24/7',
@@ -77,21 +66,10 @@ export default function ContactList({ searchQuery, selectedCategory }: ContactLi
       color: 'bg-blue-600'
     },
     {
-      id: '6',
-      name: 'MMDA Emergency Response',
-      organization: 'Metropolitan Manila Development Authority',
-      phoneNumbers: ['136', '(02) 8882-4150'],
-      category: 'rescue',
-      description: 'Metro Manila traffic and emergency response',
-      availability: '24/7',
-      icon: 'ri-roadster-line',
-      color: 'bg-green-600'
-    },
-    {
       id: '7',
       name: 'DOH Emergency Medical Services',
       organization: 'Department of Health',
-      phoneNumbers: ['(02) 8651-7800', '911'],
+      phoneNumbers: ['911'],
       category: 'medical',
       description: 'National emergency medical services',
       availability: '24/7',
@@ -102,7 +80,7 @@ export default function ContactList({ searchQuery, selectedCategory }: ContactLi
       id: '8',
       name: 'PAGASA Weather Service',
       organization: 'Philippine Atmospheric, Geophysical and Astronomical Services Administration',
-      phoneNumbers: ['(02) 8284-0800', '(02) 8433-2020'],
+      phoneNumbers: ['(032) 340‑1868'],
       category: 'disaster',
       description: 'Weather updates and typhoon information',
       availability: '24/7',
@@ -113,7 +91,7 @@ export default function ContactList({ searchQuery, selectedCategory }: ContactLi
       id: '9',
       name: 'PHIVOLCS Earthquake Info',
       organization: 'Philippine Institute of Volcanology and Seismology',
-      phoneNumbers: ['(02) 8426-1468', '(02) 8426-1469'],
+      phoneNumbers: ['8426-1468'],
       category: 'disaster',
       description: 'Earthquake and volcano monitoring information',
       availability: '24/7',
@@ -124,34 +102,12 @@ export default function ContactList({ searchQuery, selectedCategory }: ContactLi
       id: '10',
       name: 'Meralco Emergency',
       organization: 'Manila Electric Company',
-      phoneNumbers: ['16211', '(02) 8631-2222'],
+      phoneNumbers: ['(032) 467‑8298', '(032) 322‑5754' ,'09176244406'],
       category: 'utilities',
       description: 'Power outage reporting and electrical emergencies',
       availability: '24/7',
       icon: 'ri-flashlight-line',
-      color: 'bg-yellow-500'
-    },
-    {
-      id: '11',
-      name: 'Maynilad Emergency',
-      organization: 'Maynilad Water Services',
-      phoneNumbers: ['1627', '(02) 8627-7000'],
-      category: 'utilities',
-      description: 'Water service interruption and pipe burst reporting',
-      availability: '24/7',
-      icon: 'ri-drop-line',
-      color: 'bg-blue-300'
-    },
-    {
-      id: '12',
-      name: 'Manila Water Emergency',
-      organization: 'Manila Water Company',
-      phoneNumbers: ['1627', '(02) 8917-7777'],
-      category: 'utilities',
-      description: 'Water emergency and service issues',
-      availability: '24/7',
-      icon: 'ri-water-flash-line',
-      color: 'bg-blue-500'
+      color: 'bg-yellow-500'  
     }
   ];
 

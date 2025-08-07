@@ -1,5 +1,6 @@
 'use client';
 
+
 import { useMemo } from 'react';
 
 interface NewsArticle {
