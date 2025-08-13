@@ -38,7 +38,7 @@ export default function GuidesList({ selectedCategory }: GuidesListProps) {
       readTime: 12,
       lastUpdated: '2024-12-15',
       source: 'PAGASA & NDRRMC',
-      coverImage: 'https://readdy.ai/api/search-image?query=Filipino%20family%20preparing%20for%20typhoon%20with%20emergency%20supplies%2C%20boarding%20up%20windows%2C%20securing%20outdoor%20items%2C%20storm%20preparation%20scene%20with%20safety%20equipment%20and%20protective%20measures&width=400&height=250&seq=typhoon_prep1&orientation=landscape',
+      coverImage: 'https://www.thetrumpet.com/files/W1siZiIsIjIwMjAvMTEvMTkvMmd0czhnM2U5ZV8yMDExMTlfTWFuaWxhX1R5cGhvb25fR2V0dHlJbWFnZXNfMTIyOTU4NTI1OC5qcGciXSxbInAiLCJ0aHVtYiIsIjIwNDh4MjA0OD4iXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdXQ/9e4288dcb32a857e/201119-Manila%20Typhoon-GettyImages-1229585258.jpg.jpg',
       steps: [
         {
           title: 'Monitor Weather Updates',
